@@ -1,0 +1,24 @@
+.lixo{
+    top: 5cm;
+    left: 2cm;
+    widows: #202020;
+
+}
+img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    
+
+}
+img:hover{
+    transition: 1s;
+    width: 360px;
+    height: 210px;
+}
+.lixo-background{
+    width: 100%;
+    padding: 200px 0 0 0 !important;
+    background: #202020;
+    top: 95%;
+  }

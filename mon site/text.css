@@ -1,0 +1,133 @@
+#text2{
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 27cm;
+    left:2cm;
+    color: #ffffff;
+    
+}
+#text3{
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 32cm;
+    left:2cm;
+    color: #ffffff;
+   
+}
+#text{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+
+}
+h4{
+    font-size: 5em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 17cm;
+    left:2cm;
+    background: #fff;
+    border-radius: 15px;
+}
+#text4{
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 35cm;
+    left:2cm;
+    color: #ffffff;
+   
+}
+#text5{
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 38cm;
+    left:2cm;
+    color: #ffffff;
+  
+}
+
+h1{
+    font-size: 6em;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 0cm;
+    left:14cm;
+}
+h2{
+    font-size: 4em;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 3cm; 
+}
+div {
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Kanit', sans-serif;
+    height: auto;
+    margin: auto;
+    text-size-adjust: auto;
+    text-align: left;
+    text-transform: none;
+}
+h3{
+    font-size: 3em;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    position: absolute;
+    left: 39cm;
+    top: 2.5cm;
+}
+
+
+p1{
+    font-size: 1.5em;
+    font-family: 'Kanit', sans-serif; 
+    left: 0cm;
+    
+}
+
+
+p {
+    color: white;
+    font-family: 'arial';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.4em;
+    background: rgba(92, 106, 122, 0.589);
+    border-radius: 10px;
+    text-align: left;
+    position: absolute;
+    left: 40cm;
+    top: 5cm;
+}
+
+p:hover{
+    transition: 1s;
+    font-size: 2rem;
+    left: 0cm;
+    background: rgba(46, 46, 46, 0.678);
+}
+p:hover::after{
+    transition: all .5s;
+    font-size: 1.4em;
+    background: rgba(92, 106, 122, 0.589)
+    
+    
+}
+
+#text-lixo{
+    color: #d6d6d6;
+    left: 10px;
+}

@@ -1,0 +1,137 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url('https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/C9L0G336EJSC1589912849760.jpg') no-repeat ;
+    position: center;
+
+}
+
+
+
+.col-size {
+    width: 100%;
+    padding: 30% 0 0 0 !important;
+    background: #202020;
+    top: 95%;
+  }
+  .col-size2 {
+    width: 100%;
+    padding: 10% 0 0 0 !important;
+    background:linear-gradient(to top, #202020,#00000000);
+    top: 76%;
+  }
+
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #e5e5e5;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #318eff;
+    border-radius: 15px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(255, 255, 255) ;
+}
+
+
+
+button {
+    font-family: 'Kanit', sans-serif;
+    padding: 20px 50px;
+    font-size: 3rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: absolute;
+    transition: all .2s;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px #27c8ff80;
+}
+button::after {
+    content: '';
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background-image: linear-gradient(225deg, #C1E5F9 0%, #7BFFF3 50%, #706FBF 100%);
+    z-index: -1;
+    transition: all .5s;
+}
+button:hover::after {
+    transform: rotate(150deg);
+  }
+  
+  button:hover {
+      
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25), -10px 10px 25px 0px rgba(39, 200, 255, .25);
+}
+
+#box1{
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    top: 39%;
+    left: 41.5%;
+
+}
+#box2{
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    top: 51%;
+    left: 43%;
+
+}
+#box3{
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    top: 63%;
+    left: 42.6%;
+
+}
+
+nav{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+    list-style: none;
+    color: #fff;
+    background-color: #202020c4;
+    height: 100px;
+    font-style: none;
+    
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    font-style: none;
+    text-decoration: none;
+}
+li::after{
+    color:#ffffff;
+    transition: 1s;
+    font-size: 2rem;
+}
+li:hover{
+    transition: 1s;
+    color:#00bfff;
+    font-size: 2.2rem;
+    text-shadow: #00bfff;
+    
+}
+
+

@@ -1,0 +1,148 @@
+
+@media (max-width:480px) {
+    .lixo-responsive{
+        top: 80cm;
+        left: 0cm;
+        widows: #202020;
+    
+    }
+    body{
+        body{
+            margin: 0;
+            padding: 0;
+            background: url('https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/C9L0G336EJSC1589912849760.jpg') ;
+            position: center;
+        
+        }
+    }
+    #text5{
+        font-size: 1em;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        position: absolute;
+        top: 75cm;
+        left:1cm;
+        color: #ffffff;
+       
+    }
+    #text4{
+        font-size: 1em;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        position: absolute;
+        top: 65cm;
+        left:1cm;
+        color: #ffffff;
+       
+    }
+    #text3{
+        font-size: 1em;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        position: absolute;
+        top: 55cm;
+        left:1cm;
+        color: #ffffff;
+       
+    }
+    #text2{
+        font-size: 1em;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        position: absolute;
+        top: 45cm;
+        left:1cm;
+        color: #ffffff;
+       
+    }
+    h4{
+        
+        font-size: 3em;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+        position: absolute;
+        top: 37cm;
+        left:1cm;
+        
+    }
+    .col-size {
+        width: 100%;
+        padding: 300% 0 0 0 !important;
+        background: #202020;
+        top: 180%;
+      }
+    .col-size2 {
+        width: 100%;
+        padding: 30% 0 0 0 !important;
+        background:linear-gradient(to top, #202020,#00000000);
+        top: 165%;
+      }
+    button {
+        font-family: 'Kanit', sans-serif;
+        padding: 5px 10px;
+        font-size: 3rem;
+        cursor: pointer;
+        border: 0px;
+        background: transparent;
+        position: absolute;
+        transition: all .2s;
+        overflow: hidden;
+        color: #fff;
+        border-radius: 40px;
+        box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);
+    }
+    #box1{
+        width: 110px;
+        height: 200px;
+        position: absolute;
+        top: 8CM;
+        left: 4cm;
+    
+    }
+    #box2{
+        width: 110px;
+        height: 200px;
+        position: absolute;
+        top: 11CM;
+        left: 4.6cm;
+    
+    }
+    #box3{
+        width: 110px;
+        height: 200px;
+        position: absolute;
+        top: 14CM;
+        left: 4.5cm;
+    }
+    h2{
+        font-size: 3rem;
+        top:4cm ;
+        left:1cm;
+    }
+    p {
+        color: white;
+        font-family: 'arial';
+        margin-top: 50px;
+        font-size: 1.4em;
+        background: rgba(92, 106, 122, 0.589);
+        border-radius: 20px;
+        text-align: left;
+        position: absolute;
+        left: 1cm;
+        top: 20cm;
+        font-size: 2rem;
+    }
+    h3{
+        left: 1cm;
+        top: 18cm;
+
+    }
+    h1{
+        left: 1cm;
+        top: 2cm;
+        font-size: 3rem;
+
+    }
+
+
+}
