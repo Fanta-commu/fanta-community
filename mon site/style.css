@@ -14,13 +14,13 @@ body{
     width: 100%;
     padding: 30% 0 0 0 !important;
     background: #202020;
-    top: 95%;
+    top: 97%;
   }
-  .col-size2 {
+.col-size2 {
     width: 100%;
     padding: 10% 0 0 0 !important;
     background:linear-gradient(to top, #202020,#00000000);
-    top: 76%;
+    top: 78%;
   }
 
 

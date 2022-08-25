@@ -1,5 +1,5 @@
-.lixo{
-    top: 3cm;
+.slin{
+    top: 13.6cm;
     left: 2cm;
     widows: #202020;
     position: absolute;
@@ -17,7 +17,7 @@ img:hover{
     width: 360px;
     height: 210px;
 }
-.lixo-background{
+.slin-background{
     width: 100%;
     padding: 200px 0 0 0 !important;
     background: #202020;
