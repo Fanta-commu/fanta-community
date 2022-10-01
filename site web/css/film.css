@@ -1,0 +1,156 @@
+body{
+    margin: 0 auto;
+    background: url('https://m.media-amazon.com/images/I/81kTrSqMuLL._AC_SX679_.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: -100px;
+    cursor: none;
+}
+section.top-page{
+    background:#000000;
+    margin: 0 auto;
+
+}
+li{
+    font-family:'kanit';
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+
+
+
+nav {
+    width: 100%;
+    height:70px;
+    background: transparent;
+    position: fixed;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-transform: none;
+}
+.anim-nav {
+    background: #333;
+    color: #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    
+}
+.liste {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    margin: 0 10px;
+    font-size: 22px;
+}
+
+
+.anim-nav{
+    background: #333;
+    color: #f1f1f1;
+    border-bottom: #f1f1f1;
+}
+h1{
+    margin-top: 60px;
+    margin-left: 0 auto;
+    font-size: 100px;
+    background:#ffffff;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family:'kanit';
+    padding-left: 100px;
+    padding-top: 200px;
+}
+h2{
+    font-size: 700px;
+    text-align: center;
+    color: #ffffff;
+    font-family:'kanit';
+    background-position: 20px;
+    justify-content: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border-radius: 40px;
+    
+    
+    
+}
+section.doc{
+    margin-right: 1300px;
+}
+section.marvel{
+    margin-left: 0 auto;
+    margin-right: 1500 auto;
+    margin-top: 0 auto;
+    background: #414141c2;
+    border-radius: 10px;
+
+}
+p{
+    text-align: start;
+    margin-left: 20px;
+    font-family: 'kanit';
+    color: #ffffff;
+}
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed white;
+    border-radius: 50%;
+    position: absolute;
+    animation: Anim1 1s infinite alternate;
+  pointer-events: none;
+}
+
+.cursor::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+}
+
+.expand {
+    animation: Anim2 .5s;
+    background: black;
+    border: 1px solid black;
+}
+@keyframes Anim1 {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(0.7) rotate(190deg);
+    }
+}
+
+@keyframes Anim2 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+        opacity:0;
+    }
+}
+.box1 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    background: #000000;
+}
